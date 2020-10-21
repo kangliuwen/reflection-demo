@@ -1,4 +1,4 @@
-package com.swagger.swagger.pojo;
+package com.reflection.demo.pojo;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

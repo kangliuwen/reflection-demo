@@ -1,8 +1,7 @@
-package com.swagger.swagger.pojo;
+package com.reflection.demo.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import io.swagger.annotations.ApiParam;
 
 import java.lang.annotation.*;
 
@@ -53,6 +52,7 @@ public class User  extends Test{
     }
 
 }
+
 @Target({ElementType.TYPE,ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited

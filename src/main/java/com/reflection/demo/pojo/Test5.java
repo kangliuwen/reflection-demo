@@ -1,4 +1,4 @@
-package com.swagger.swagger.pojo;
+package com.reflection.demo.pojo;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -49,7 +49,7 @@ public class Test5 {
             if(annotation1 instanceof io.swagger.annotations.ApiOperation){
                 ApiOperation a = (ApiOperation)annotation1;
                 System.out.println("ApiOperation:"+a.value()+a.notes());
-            }else  if(annotation1 instanceof org.springframework.web.bind.annotation.PostMapping){
+            }else  if(annotation1 instanceof PostMapping){
                 PostMapping a = (PostMapping)annotation1;
                 System.out.println("PostMapping:"+a.name());
             }

@@ -1,4 +1,4 @@
-package com.swagger.swagger.pojo;
+package com.reflection.demo.pojo;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
